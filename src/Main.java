@@ -9,8 +9,8 @@ public class Main {
 
     public static int sum (int[] arr , int i ) {
 
-        if(arr.length  == i ) {
-            return  0 ;
+        if(arr.length -1  == i ) {
+            return  arr[i];
         }
 
         return arr[i] + sum(arr , i+1 );
